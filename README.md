@@ -84,22 +84,6 @@ biblioteca-mvc/
    > Si usas XAMPP/WAMP, copia la carpeta del proyecto dentro de `htdocs`/`www`
    > y accede a `http://localhost/biblioteca-mvc/public/`.
 
-## Subir el proyecto a GitHub
 
-Desde la carpeta raíz del proyecto (`biblioteca-mvc/`):
-
-```bash
-git init
-git add .
-git commit -m "Primer commit: aplicación MVC en PHP con 3 tablas"
-git branch -M main
-git remote add origin https://github.com/TU-USUARIO/biblioteca-mvc.git
-git push -u origin main
-```
-
-Reemplaza `TU-USUARIO` por tu usuario de GitHub y crea antes el repositorio
-vacío en GitHub (sin README, para evitar conflictos al hacer push).
-
-## Autor
 
 Proyecto académico — UNIANDES.
