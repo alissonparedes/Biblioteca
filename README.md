@@ -57,33 +57,5 @@ biblioteca-mvc/
 - MySQL / MariaDB
 - Servidor web (Apache/XAMPP/WAMP/Laragon) o el servidor embebido de PHP
 
-## Instalación local
-
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/TU-USUARIO/biblioteca-mvc.git
-   cd biblioteca-mvc
-   ```
-
-2. Crear la base de datos ejecutando el script SQL:
-   ```bash
-   mysql -u root -p < database/schema.sql
-   ```
-
-3. Configurar las credenciales de conexión en `config/Database.php`
-   (host, usuario, contraseña) si son distintas a las de por defecto
-   (`root` / sin contraseña).
-
-4. Levantar el servidor apuntando a la carpeta `public/`:
-   ```bash
-   php -S localhost:8000 -t public
-   ```
-
-5. Abrir en el navegador: `http://localhost:8000`
-
-   > Si usas XAMPP/WAMP, copia la carpeta del proyecto dentro de `htdocs`/`www`
-   > y accede a `http://localhost/biblioteca-mvc/public/`.
 
 
-
-Proyecto académico — UNIANDES.
